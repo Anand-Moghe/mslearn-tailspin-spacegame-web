@@ -2,7 +2,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
   demands:
     - npm
-
+# Edit to trigger commit and generate PR
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
